@@ -2,7 +2,7 @@
 
 const http = require('http')
 const sayHello = require('./stuff').sayHello
-const port = 8881
+const port = process.env.PORT || 8881
 
 const server = http.createServer((request, response) => {
   response.end(sayHello())
