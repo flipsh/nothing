@@ -1,0 +1,15 @@
+{
+  "name": "nothing",
+  "scripts": {
+  },
+  "env": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/nodejs"
+    }
+  ]
+}
