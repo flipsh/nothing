@@ -8,5 +8,8 @@ describe('Stuff', () => {
     it('should return `Hello World!`', () => {
       expect(sayHello()).to.equal('Hello World!')
     })
+    it('should return `Hello Jacopo!`', () => {
+      expect(sayHello('Jacopo')).to.equal('Hello Jacopo!')
+    })
   })
 })
