@@ -1,0 +1,32 @@
+{
+  "name": "flipsh-nothing",
+  "version": "1.0.0",
+  "description": "The best app that does absolutely nothing. Mainly used to test flip infrastructure.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flipsh/nothing.git"
+  },
+  "keywords": [
+    "nodejs",
+    "test",
+    "ci"
+  ],
+  "author": "Jacopo Daeli <jacopo.daeli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flipsh/nothing/issues"
+  },
+  "homepage": "https://github.com/flipsh/nothing#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
